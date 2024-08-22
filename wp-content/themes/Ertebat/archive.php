@@ -1,7 +1,7 @@
 
 <?php get_header(); ?>
 
-<div class="       mx-5 mt-5  py-8">
+<div class=" mx-5 mt-5  py-8">
     <h1 class="text-3xl font-bold text-center mb-8">
         <?php
         if (is_category()) {

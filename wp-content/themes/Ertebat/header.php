@@ -8,7 +8,7 @@
     <title>Ertebat Test</title>
     <?php wp_head(); ?>
 </head>
-<body>
+<body class="flex flex-col min-h-screen">
 
 <header class=" mt-0 px-5 bg-gray-100 shadow-md  ">
     <div class="flex flex-row items-center justify-between  py-6">

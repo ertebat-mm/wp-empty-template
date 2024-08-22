@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body{
+
     text-align: right;
     direction: rtl;
 }
