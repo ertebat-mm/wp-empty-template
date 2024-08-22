@@ -1,0 +1,69 @@
+/*
+
+Template Name:Ertebat
+Author:Mohammad mehri
+Author URI:https://www.ertebatweb.com
+
+ */
+@font-face {
+    font-family: 'vazir';
+    src: url('./assets/fonts/Vazir-Regular.woff');
+}
+
+@font-face {
+    font-family: 'vazir bold';
+    src: url('./assets/fonts/Vazir-Bold.woff');
+}
+
+
+body {
+    font-family: 'vazir';
+
+}
+
+h1, h2, h3 {
+    font-family: 'Vazir bold';
+}
+
+.header-menu-center ,ul ,nav{
+    display: flex;
+}
+
+.header-menu-center li{
+  margin: 0 20px;
+}
+
+
+.header-menu-center li :hover{
+   color:red;
+}
+
+.header-menu-left ,ul ,nav {
+    display: flex;
+    direction: ltr;
+}
+.header-menu-left li{
+    margin-right:  20px;
+
+}
+
+.menu-call-container li {
+    margin-right: 1rem;
+    font-size: 1rem;
+
+}
+.menu-call-container li :hover {
+    color:red;
+}
+
+/*.account-info {*/
+/*    align-items: center;*/
+/*    display: flex;*/
+/*    text-align: left;*/
+/*    direction: ltr;*/
+/*}*/
+
+form .logged-in-as {
+    color: darkorange;
+    margin-top: 1rem;
+}
