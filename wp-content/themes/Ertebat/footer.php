@@ -1,6 +1,6 @@
 
 <?php wp_footer(); ?>
-
+<div class="empty mt-8"></div>
 <footer class="bg-gray-800 text-white  py-2  mt-auto ">
     <div class="  mx-5">
         <!-- سطر اول -->
