@@ -51,5 +51,5 @@ function my_custom_menus()
 // استفاده از اکشن 'init' برای اجرای تابع my_custom_menus هنگام بارگذاری وردپرس
 add_action('init', 'my_custom_menus');
 
-//hellow
+//hellow Mohammad mehri
  
