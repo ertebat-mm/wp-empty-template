@@ -1,7 +1,6 @@
 <?php
 
 
-<<<<<<< HEAD
 function enqueue_custom_styles(): void
 {
     wp_enqueue_style('tailwind-style', get_template_directory_uri() . '/assets/css/style.css', array(), '1.0', 'all');

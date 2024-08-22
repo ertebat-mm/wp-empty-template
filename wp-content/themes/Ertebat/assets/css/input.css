@@ -1,10 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-<<<<<<< HEAD
+
 body{
     text-align: right;
     direction: rtl;
 }
-=======
->>>>>>> 4d0189da475853b2c4096f9886f0136d89adaf50
