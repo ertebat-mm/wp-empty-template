@@ -9,6 +9,7 @@
     <?php wp_head(); ?>
 </head>
 <body>
+<<<<<<< HEAD
 <header class=" mt-0 px-5 bg-gray-100 shadow-md  ">
     <div class="flex flex-row items-center justify-between  py-6">
 
@@ -40,3 +41,6 @@
 
     </div>
 </header>
+=======
+
+>>>>>>> 4d0189da475853b2c4096f9886f0136d89adaf50

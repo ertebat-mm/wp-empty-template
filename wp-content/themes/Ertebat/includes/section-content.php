@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
 
@@ -10,3 +11,6 @@
 
     <?php endwhile; ?>
 <?php endif; ?>
+=======
+<?php
+>>>>>>> 4d0189da475853b2c4096f9886f0136d89adaf50

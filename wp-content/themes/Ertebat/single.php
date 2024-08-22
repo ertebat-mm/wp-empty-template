@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php get_header(); ?>
 <div class="content flex mx-5 mt-8">
     <?php if (have_posts()): while (have_posts()): the_post(); ?>
@@ -37,3 +38,6 @@
 </div>
 
 <?php get_footer(); ?>
+=======
+<?php
+>>>>>>> 4d0189da475853b2c4096f9886f0136d89adaf50

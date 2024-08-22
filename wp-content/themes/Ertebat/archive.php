@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php get_header(); ?>
 
 <div class="       mx-5 mt-5  py-8">
@@ -79,3 +80,6 @@
 </div>
 
 <?php get_footer(); ?>
+=======
+<?php
+>>>>>>> 4d0189da475853b2c4096f9886f0136d89adaf50
