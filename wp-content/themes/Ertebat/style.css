@@ -47,12 +47,18 @@ h1, h2, h3 {
     margin-right:  20px;
 
 }
+.header-menu-left li :hover{
+    color:red;
+}
 
 .menu-call-container li {
     margin-right: 1rem;
     font-size: 1rem;
 
 }
+
+
+
 .menu-call-container li :hover {
     color:red;
 }
