@@ -1,17 +1,7 @@
 <div class=" mx-5 mt-5  py-8">
     <h1 class="text-3xl font-bold text-center mb-8">
         <?php
-        if (is_category()) {
-            single_cat_title(); // عنوان دسته‌بندی
-        } elseif (is_tag()) {
-            single_tag_title(); // عنوان برچسب
-        } elseif (is_author()) {
-            the_author(); // نام نویسنده
-        } elseif (is_date()) {
-            echo get_the_date(); // تاریخ
-        } else {
-            _e('آرشیو', 'textdomain'); // عنوان پیش‌فرض
-        }
+        echo 'نتایج جتسجو برای :' . get_search_query();
         ?>
     </h1>
 

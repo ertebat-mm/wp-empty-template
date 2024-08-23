@@ -26,29 +26,31 @@ h1, h2, h3 {
     font-family: 'Vazir bold';
 }
 
-.header-menu-center ,ul ,nav{
+.header-menu-center, ul, nav {
     display: flex;
 }
 
-.header-menu-center li{
-  margin: 0 20px;
+.header-menu-center li {
+    margin: 0 20px;
 }
 
 
-.header-menu-center li :hover{
-   color:red;
+.header-menu-center li :hover {
+    color: red;
 }
 
-.header-menu-left ,ul ,nav {
+.header-menu-left, ul, nav {
     display: flex;
     direction: ltr;
 }
-.header-menu-left li{
-    margin-right:  20px;
+
+.header-menu-left li {
+    margin-right: 20px;
 
 }
-.header-menu-left li :hover{
-    color:red;
+
+.header-menu-left li :hover {
+    color: red;
 }
 
 .menu-call-container li {
@@ -58,9 +60,8 @@ h1, h2, h3 {
 }
 
 
-
 .menu-call-container li :hover {
-    color:red;
+    color: red;
 }
 
 /*.account-info {*/
@@ -74,4 +75,21 @@ form .logged-in-as {
     color: darkorange;
     margin-top: 1rem;
 }
+.right-sidebar li{
+    list-style-type: none;
 
+}
+.right-sidebar li ul {
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.right-sidebar li ul li :hover {
+    color: green;
+    text-decoration: none;
+
+
+}
